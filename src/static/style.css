@@ -1,0 +1,34 @@
+/* Navigation Bar  */
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(230, 225, 225);
+
+}
+
+/* Keeps Navigation bar menus in a horizontal line. */
+li
+{
+    float: left;
+}
+
+/*Navigation Text*/
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Text change when hovering*/
+li a:hover
+{
+    color: rgb(10, 144, 246);
+}
